@@ -1,12 +1,16 @@
-object rojo() {
+
+object rojo {
 	method esFuerte() = true
 }
-object verde() {
+object verde {
 	method esFuerte() = true
 }
-object celeste() {
+object celeste {
 	method esFuerte() = false
 }
-object pardo() {
+object pardo {
 	method esFuerte() = false
+}
+object naranja {
+	method esFuerte() = true
 }

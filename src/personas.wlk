@@ -1,5 +1,5 @@
-import colores *
-import matereiales *
+import colores.*
+import matereales.*
 
 object rosa {
 	method leGusta(algo) {
@@ -13,11 +13,11 @@ object estefania {
 }
 object luisa {
 	method leGusta(algo) {
-		return not algo.matreial().esBrillante() or algo.peso().between(1200,1800) 
+		return  algo.matreial().esBrillante()  
 	}
 }
 object juan {
 	method leGusta(algo) {
-		return algo.color().esFuerte()
+		return not algo.color().esFuerte() or algo.peso().between(1200,1800)
 	}
 }
