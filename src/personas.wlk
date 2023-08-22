@@ -1,5 +1,5 @@
 import colores.*
-import matereales.*
+import materiales.*
 
 object rosa {
 	method leGusta(algo) {
@@ -13,7 +13,7 @@ object estefania {
 }
 object luisa {
 	method leGusta(algo) {
-		return  algo.matreial().esBrillante()  
+		return  algo.material().esBrillante()  
 	}
 }
 object juan {

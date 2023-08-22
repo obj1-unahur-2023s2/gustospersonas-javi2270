@@ -47,6 +47,7 @@ object arito {
 
 object banquito {
 	var color = naranja
+	var peso
 	
 	method color() = color
 	method color(unColor) {color = unColor}

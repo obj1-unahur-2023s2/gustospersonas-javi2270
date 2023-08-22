@@ -1,20 +1,20 @@
-object cobre() {
+object cobre {
 	method esBrillante() = true
 }
 
-object vidrio() {
+object vidrio {
 	method esBrillante() = true
 }
 
-object lino() {
+object lino {
 	method esBrillante() = false
 }
 
-object madera() {
+object madera {
 	method esBrillante() = false
 }
 
-object cuero() {
+object cuero {
 	method esBrillante() = false
 }
 
