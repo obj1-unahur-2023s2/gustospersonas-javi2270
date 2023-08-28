@@ -20,7 +20,7 @@ object biblioteca {
 }
 
 object munieco {
-	var peso
+	var peso = 0
 	
 	method color() = celeste
 	method material() = vidrio 
@@ -30,7 +30,7 @@ object munieco {
 
 object placa {
 	var peso
-	var color
+	var color = rojo
 	
 	method color() = color
 	method color(unColor) {color = unColor}
@@ -57,7 +57,7 @@ object banquito {
 	}
 	
 object cajita {
-	var objetoAdentro
+	var objetoAdentro = remera
 	
 	method objetoAdentro() = objetoAdentro
 	method objetoAdentro(unObjeto) { objetoAdentro = unObjeto }
